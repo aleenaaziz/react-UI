@@ -1,0 +1,26 @@
+.navbar{
+    display: flex;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.heading{
+    color: white;
+    margin-left: 200px;
+}
+.list{
+    color: white;
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+    
+}
+.listItem{
+    padding-right: 20px;
+    padding-left: 5px;
+}
+.icon1{
+    padding-left: 20px; 
+    height: 20px;
+    width: 20px;
+}
