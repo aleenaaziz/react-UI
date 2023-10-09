@@ -1,5 +1,5 @@
 .main-div{
-    height: 405px;
+    height: auto;
     width: 80%;
     margin-left: 130px;
     margin-top: 180px;
@@ -50,15 +50,36 @@
     display: flex;
 }
 .f-icon{
-    margin-left: 65px;
+   /* padding-left: 65px; */
     color: rgb(150, 147, 147);
     display: block;
+    position: absolute;
 }
 .f-para{
-    margin-left: 65px;
+    margin-top: 45px;
+    color: rgb(150, 147, 147);
+    margin-left: -5px;
+}
+.f-div{
+    
+    padding-left: 30px;
+    margin-left: 30px;
+    padding-top: 10px;
+    
 }
 .f-div:hover{
-    width: 50px;
-    border: 2px solid black;
-    background-color: blueviolet;
+    width: 60px;
+    border-radius: 3px;
+    background-color: rgb(172, 100, 240);
+    height: 70px;
 }
+.light {
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  .dark {
+    background-color: #333333;
+    color: white;
+  }
+  
